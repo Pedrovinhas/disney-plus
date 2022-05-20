@@ -30,7 +30,7 @@ export function MoviePainel() {
                 </div>
 
                 <div>
-                <Link to="/raya">
+                <Link to="/wish-dragon">
 
                     <img src="./play.svg" alt="" />
                     <span className={styles.categories}> Kids </span>
@@ -41,7 +41,7 @@ export function MoviePainel() {
 
 
                 <div>
-                <Link to="/wish-dragon">
+                <Link to="/raya">
 
                     <img src="./play.svg" alt="" />
                     <span className={styles.categories}> Kids </span>
