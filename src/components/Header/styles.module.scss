@@ -1,0 +1,32 @@
+header {
+  height: 20vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    margin-left: 130px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 46px;
+
+    margin-right: 126px;
+   
+    span {
+      background: white;
+      width: 46.21px;
+      border: 2px solid #ffffff;
+      border-radius: 5px;
+      margin-top: 8px;
+    }
+
+    span:nth-child(3) {
+        width: 19px;
+        align-self: end;
+    }
+  }
+}

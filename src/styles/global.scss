@@ -1,0 +1,60 @@
+@use "sass:math";
+
+@function pxToRem($pxValue) {
+  @return math.div($pxValue, 16px) * 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+:root {
+  --primary-color: #fff;
+  --font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url("luca-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(
+        180deg,
+        rgba(14, 23, 47, 0.0001) 11.72%,
+        #0e172f 100%
+      );
+  border: 5px solid #bebebe;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  opacity: 0.4;
+  border-radius: 10px;
+  mix-blend-mode: normal;
+}
