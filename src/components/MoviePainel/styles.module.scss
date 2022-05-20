@@ -23,67 +23,80 @@
       width: 265px;
       height: 149px;
 
-      display: flex;
-      flex-direction: column;
-      z-index: 1;
-      
-      justify-content: end;
-      mix-blend-mode: normal;
-      opacity: 0.8;
-
-      cursor: pointer;
-
-      background: linear-gradient(
-        180deg,
-        rgba(14, 23, 47, 0.0001) 11.72%,
-        #0e172f 100%
-      );
-
-      transition: all .2s ease-in-out;
+      background-image: url("./spirit.jpg");
 
       border-radius: 8px;
 
-      span {
-        z-index: 2;
-        margin-left: 10px;
-        opacity: 1;
+      a {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
 
-        color: var(--primary-color);
-        
-      }
+        width: 100%;
+        height: 100%;
 
-      .categories {
-        font-size: 14px;
-        font-weight: 400;
-      }
+        justify-content: end;
+        mix-blend-mode: normal;
+        opacity: 0.8;
 
-      .movie {
-        margin-top: -10px;
-        font-weight: 600;
-        font-size: 16px;
-      }
+        cursor: pointer;
 
-      img {
-        width: 36px;
-        height: 36px;
-        align-self: center;
-      }
+        background: linear-gradient(
+          180deg,
+          rgba(14, 23, 47, 0.0001) 5%,
+          #0e172f 100%
+        );
 
-      &:hover {
-        opacity: 1;
+        transition: all 6s ease-in-out;
+
+        border-radius: 8px;
+
+        &:hover {
+          opacity: 1;
+          background: transparent;
+        }
+
+        span {
+          z-index: 2;
+          margin-left: 10px;
+          opacity: 1;
+
+          color: var(--primary-color);
+        }
+
+        .categories {
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        .movie {
+          margin-top: -10px;
+          font-weight: 600;
+          font-size: 16px;
+        }
+
+        img {
+          width: 36px;
+          height: 36px;
+          align-self: center;
+        }
       }
     }
 
     div:nth-child(1) {
-      background-image: url("./spirit.jpg");
+      background-image: url("./luca.png");
+      background-size: cover;
     }
     div:nth-child(2) {
-      background-image: url("./wish-dragon.jpg");
+      background-image: url("./spirit.jpg");
     }
     div:nth-child(3) {
-      background-image: url("./raya.jpg");
+      background-image: url("./wish-dragon.jpg");
     }
     div:nth-child(4) {
+      background-image: url("./raya.jpg");
+    }
+    div:nth-child(5) {
       background-image: url("./bob.png");
     }
   }

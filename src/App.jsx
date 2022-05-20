@@ -1,16 +1,21 @@
 import './styles/global.scss'
-import { Header } from './components/Header'
-import { MovieInfo } from './components/MovieInfo'
-import { MoviePainel } from './components/MoviePainel'
+import { Routes, Route, Link } from "react-router-dom";
+import { Home } from './pages/Home'
+import { BobSpongePage } from './pages/BobSponge'
+import { SpiritPage } from './pages/Spirit'
+
+
 
 function App() {
   return (
     <>
-      <Header />
-      <div className="containerBox">
-        <MovieInfo />
-        <MoviePainel />
-      </div>
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/bob-sponge" element={<BobSpongePage />} />
+        <Route path="/raya" element={<BobSpongePage />} />
+        <Route path="/spirit" element={<SpiritPage />} />
+        <Route path="/wish-dragon" element={<BobSpongePage />} />
+      </Routes>
     </>
   )
 }

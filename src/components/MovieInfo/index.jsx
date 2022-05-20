@@ -12,7 +12,7 @@ export function MovieInfo() {
 
             <img className={styles.logo} src="./luca.png" alt="Logo do Filme" />
 
-            <p className={styles.sinopsis}>
+            <p className={styles.synopsis}>
                 Luca and Alberto dream of a life of freedom, a life of adventure — and, most of all, a life with a Vespa to ride.
             </p>
 
