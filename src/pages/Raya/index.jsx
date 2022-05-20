@@ -1,11 +1,12 @@
 import { Header } from '../../components/Header'
 import { MoviePainel } from '../../components/MoviePainel'
-import styles from './styles.module.scss'
+import styles from '../../components/MovieInfo/styles.module.scss'
 
+import rayaBackground from '/raya-background.jpg'
 
 export function RayaPage() {
     return (
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainer} style={{backgroundImage: `url(${rayaBackground})`}}>
         <Header/>
         <div className="containerBox">
         <section className={styles.movieBox}>
@@ -16,7 +17,7 @@ export function RayaPage() {
 
             <span> 2021 - Kids - Movie </span>
 
-            <img className={styles.logo} src="./raya-logo.png" alt="Logo do Filme" />
+            <img className={styles.logo} style={{marginLeft: '-5px', marginBottom: '16px', marginTop: '16px' }} src="./raya-logo.png" alt="Logo do Filme" />
 
             <p className={styles.synopsis}>
             In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.

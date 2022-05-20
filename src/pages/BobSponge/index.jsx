@@ -1,11 +1,13 @@
 import { Header } from '../../components/Header'
 import { MoviePainel } from '../../components/MoviePainel'
-import styles from './styles.module.scss'
+import styles from '../../components/MovieInfo/styles.module.scss'
+
+import bobBackground from '/bob-background.jpg'
 
 
 export function BobSpongePage() {
     return (
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainer} style={{backgroundImage: `url(${bobBackground})`}}>
         <Header/>
         <div className="containerBox">
         <section className={styles.movieBox}>
@@ -16,7 +18,7 @@ export function BobSpongePage() {
 
             <span> 2021 - Kids - Movie </span>
 
-            <img className={styles.logo} src="./sponge-bob-logo.png" alt="Logo do Filme" />
+            <img className={styles.logo} style={{marginLeft: '20px', marginBottom: '16px', marginTop: '16px' }} src="./sponge-bob-logo.png" alt="Logo do Filme" />
 
             <p className={styles.synopsis}>
             The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple.

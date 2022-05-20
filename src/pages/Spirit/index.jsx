@@ -1,11 +1,12 @@
 import { Header } from '../../components/Header'
 import { MoviePainel } from '../../components/MoviePainel'
-import styles from './styles.module.scss'
+import styles from '../../components/MovieInfo/styles.module.scss'
 
+import spiritBackground from '/spirit-background.jpg'
 
 export function SpiritPage() {
     return (
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainer} style={{backgroundImage: `url(${spiritBackground})`}}>
         <Header/>
         <div className="containerBox">
         <section className={styles.movieBox}>
@@ -16,7 +17,7 @@ export function SpiritPage() {
 
             <span> 2021 - Kids - Movie </span>
 
-            <img className={styles.logo} src="./spirit-logo.png" alt="Logo do Filme" />
+            <img className={styles.logo} style={{marginLeft: '-10px', marginBottom: '16px', marginTop: '16px' }} src="./spirit-logo.png" alt="Logo do Filme" />
 
             <p className={styles.synopsis}>
             After moving to a sleepy little town, young Lucky Prescott befriends a wild mustang named Spirit, who shares her rebellious spirit.

@@ -1,4 +1,13 @@
-.movieBox {
+.imageContainer {
+  width: 100vw;
+  height: 100vh;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  
+  .movieBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,68 +18,67 @@
     margin-left: 130px;
 
     span {
-        color: var(--primary-color);
-        font-size: 20px;
+      color: var(--primary-color);
+      font-size: 20px;
     }
 
     .rating {
-        color: var(--primary-color);
-        display: flex;
-        align-items: center;
+      color: var(--primary-color);
+      display: flex;
+      align-items: center;
 
-        margin-bottom: 12px;
-        
-        span {
-            margin-left: 18px;
-            font-size: 20px;
-            font-weight: 600;
-        }
+      margin-bottom: 12px;
+
+      span {
+        margin-left: 18px;
+        font-size: 20px;
+        font-weight: 600;
+      }
     }
 
     .logo {
-        width: 300px;
-        margin-left: -40px;
+      width: 300px;
+      margin-left: -40px;
     }
 
     .synopsis {
-        width: 401px;
-        color: var(--primary-color);
-        font-size: 20px;
-        line-height: 32px;
-        font-weight: 400;
-        
+      width: 401px;
+      color: var(--primary-color);
+      font-size: 20px;
+      line-height: 32px;
+      font-weight: 400;
     }
 
     button {
-        background: linear-gradient(154.23deg, #0F3A7B -58.45%, #0CFFFF 374.49%);
+      background: linear-gradient(154.23deg, #0f3a7b -58.45%, #0cffff 374.49%);
 
-        margin-top: 16px;
+      margin-top: 16px;
 
-        width: 250px;
-        height: 70px;
+      width: 250px;
+      height: 70px;
 
-        border: none;
+      border: none;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.160784);
-        border-radius: 50px;
-      
-        cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.160784);
+      border-radius: 50px;
 
-        transition: all .2s;
+      cursor: pointer;
 
-        &:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
+      transition: all 0.2s;
 
-        span {
-            margin-left: 30px;
-            font-weight: 500;
-            font-size: 20px;
-        }
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      span {
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 20px;
+      }
     }
-
+  }
 }

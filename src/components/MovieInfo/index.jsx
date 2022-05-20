@@ -2,6 +2,7 @@ import styles from './styles.module.scss'
 
 export function MovieInfo() {
     return (
+        <div className={styles.imageContainer} >
         <section className={styles.movieBox}>
             <div className={styles.rating}>
                 <img src="./imdb.svg" alt="IMDB Rating" />
@@ -22,5 +23,6 @@ export function MovieInfo() {
             </button>
 
         </section>
+        </div>
     )
 } 
