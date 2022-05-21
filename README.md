@@ -3,8 +3,14 @@
     
 </p>
 
+<p align=center>
+    <img src='https://img.shields.io/github/languages/count/pedrovinhas/disney-plus.svg?&color=0F7AB8&labelColor=fff'>
+    <img src='https://img.shields.io/github/languages/top/pedrovinhas/disney-plus.svg?&color=0F7AB8&labelColor=fff'>
+    
+</p>
+
 <p align="center">
-  <a href="#-Objetivo">  Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Sobre">  Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Funcionalidades">  Funcionalidades </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Ferramentas"> Ferramentas </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Como-executar">  Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,14 +23,14 @@
 </div>
 <br>
 
-## 📑 Sobre
-Esse é um projeto de Redesign do Disney+ disponibilizado no [Community do Figma](https://www.figma.com/community/file/1087075634452339765), feito por Itai Bracha e desenvolvido por mim, adicionando as páginas dos filmes que faltavam.
+## 💻 Sobre
+Esse é um projeto de **Redesign do Disney+** disponibilizado no [Community do Figma](https://www.figma.com/community/file/1087075634452339765), feito por Itai Bracha e desenvolvido por mim, adicionando as páginas dos filmes que faltavam.
 
-## ✨ Funcionalidades
+## 🎯 Funcionalidades
 - [X] Paginas com React-Router
-- [] Adicionar animações de transição entre páginas
-- [] Controle do Scroll
-- [] Mostrar página em que estou no MoviePainel
+- [ ] Adicionar animações de transição entre páginas
+- [ ] Controle do Scroll
+- [ ] Mostrar página em que estou no MoviePainel
 
 ## 🔧 Ferramentas
 O projeto foi desenvolvido com as seguintes ferramentas:
